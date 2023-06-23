@@ -1,3 +1,6 @@
+#ifndef DISPLAY_H
+#define DISPLAY_H
+
 #include <stdbool.h>
 
 bool initialize_display(void);
@@ -10,3 +13,5 @@ bool key_pressed(uint8_t* key);
 void handle_events(void);
 bool frame_drawn(void);
 void play_beep(void);
+
+#endif
